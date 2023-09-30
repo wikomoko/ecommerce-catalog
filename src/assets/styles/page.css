@@ -1,0 +1,317 @@
+:root {
+  --darkblue: #002772;
+  --pink: #FDE2FF;
+  --darkblack: #1E1E1E;
+  --purple: #720060;
+  --softblue: #D6E6FF;
+  --softblack: #3F3F3F;
+  --gray: #DCDCDC;
+  --white: #FFFFFF;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+}
+
+.bg-darkblue {
+  background-color: var(--darkblue);
+}
+
+.bg-pink {
+  background-color: var(--pink);
+}
+
+.bg-darkblack {
+  background-color: var(--darkblack);
+}
+
+.bg-purple {
+  background-color: var(--purple);
+}
+
+.bg-softblue {
+  background-color: var(--softblue);
+}
+
+.bg-softblack {
+  background-color: var(--softblack);
+}
+
+.bg-gray {
+  background-color: var(--gray);
+}
+
+.bg-white {
+  background-color: var(--white);
+}
+
+.darkblue {
+  color: var(--darkblue);
+}
+
+.pink {
+  color: var(--pink);
+}
+
+.darkblack {
+  color: var(--darkblack);
+}
+
+.purple {
+  color: var(--purple);
+}
+
+.softblue {
+  color: var(--softblue);
+}
+
+.softblack {
+  color: var(--softblack);
+}
+
+.gray {
+  color: var(--gray);
+}
+
+.white{
+  color: var(--white);
+}
+
+.br-white {
+  color: var(--white);
+}
+
+.br-darkblue {
+  border: 3px solid var(--darkblue);
+}
+
+.br-pink {
+  color: var(--pink);
+}
+
+.br-darkblack {
+  border-color: var(--darkblack);
+}
+
+.br-purple {
+  border-color: var(--purple);
+}
+
+.br-softblue {
+  border-color: var(--softblue);
+}
+
+.br-softblack {
+  border-color: var(--softblack);
+}
+
+.br-gray {
+  border-color: var(--gray);
+}
+
+.br-white {
+  border-color: var(--white);
+}
+
+.br-radius-10 {
+  border-radius: 10px;
+}
+
+.br-radius-4 {
+  border-radius: 4px;
+}
+
+.br-circle {
+  border-radius: 50%;
+}
+
+
+.fw-600 {
+  font-weight: 600;
+}
+
+.fw-400 {
+  font-weight: 400;
+}
+
+.fs-28 {
+  font-size: 28px;
+}
+
+.fs-20 {
+  font-size: 20px;
+}
+
+.fs-18 {
+  font-size: 18px;
+}
+
+.bg-men {
+  background-image: url('/images/pattern-blue.svg');
+  background-size: cover;
+}
+
+.bg-woman {
+  background-image: url('/images/pattern-pink.svg');
+  background-size: cover;
+}
+
+
+.bg-pad {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 70vh;
+  z-index: -10;
+}
+
+.hero {
+  width: 100vw;
+  height: 100vh;
+
+}
+
+.flex {
+  display: flex;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.overflow {
+  overflow: hidden;
+}
+
+.shadow {
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.imgProduct {
+  width: 300px;
+  height: 300px;
+}
+
+.p-50 {
+  padding: 30px;
+}
+
+.p-40 {
+  padding: 40px;
+}
+
+.card {
+  width: 80vw;
+  min-height: 70vh;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.dot {
+  margin: 1px;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+}
+
+hr {
+  margin-top: 14px;
+  margin-bottom: 14px;
+  border: none;
+  border-top: 1px solid var(--gray);
+}
+
+.btn {
+  width: 100%;
+  height: 42px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.btn-thin{
+  width: 100%;
+  height: 42px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.loader {
+  border: 16px solid #f3f3f3; /* Light grey */
+  border-top: 16px solid #3498db; /* Blue */
+  border-radius: 50%;
+  width: 120px;
+  height: 120px;
+  animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+.loaderPad{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+
+}
+
+.block{
+  display: flex;
+}
+
+.none{
+  display: none;
+}
+
+.col {
+  flex-direction: column;
+}
+
+.row {
+  flex-direction: row;
+}
+
+@media screen and (min-width: 1440px) {
+  .card {
+    width: 60vw;
+    min-height: 50vh;
+  }
+}
+
+@media screen and (max-width:1000px) {
+  .card {
+    width: 60vw;
+    min-height: 50vh;
+  }
+  .col {
+    flex-direction: row;
+  }
+  .padder{
+    flex-direction: column !important;
+  }
+  .imgProduct {
+    width: 100%;
+    height: auto;
+  }
+  .p-50{
+    padding: 10px;
+  }
+}
