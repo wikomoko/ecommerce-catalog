@@ -1,10 +1,15 @@
 # ecommerce-calatolg
 
-This template should help get you started developing with Vue 3 in Vite.
+This is Vue project of virtual intern Rakamin x Core Initiative (non VIP).
 
-## Recommended IDE Setup
+![vr](https://github.com/wikomoko/ecommerce-catalog/assets/61697475/377d0fc5-1520-4180-8111-6b21614aba15)
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+few screen shoot :
+
+![s1](https://github.com/wikomoko/ecommerce-catalog/assets/61697475/e30cbb73-7112-46b9-8567-2557083ed4f1)
+
+![s2](https://github.com/wikomoko/ecommerce-catalog/assets/61697475/14377a14-f634-444d-acec-e05f31b89b90)
+
 
 ## Customize configuration
 
